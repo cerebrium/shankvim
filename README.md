@@ -1,3 +1,3 @@
-# shankvim
+Prereqs:
 
-based off lazyvim
+1. Install ripgrep
