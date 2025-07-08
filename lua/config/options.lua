@@ -9,4 +9,7 @@ vim.g.lazyvim_picker = "fzf"
 -- Set to "bacon-ls" to use bacon-ls instead of rust-analyzer.
 -- only for diagnostics. The rest of LSP support will still be
 -- provided by rust-analyzer.
-vim.g.lazyvim_rust_diagnostics = "rust-analyzer"
+vim.g.lazyvim_rust_diagnostics = "bacon-ls"
+
+-- if no prettier config don't format
+-- vim.g.lazyvim_prettier_needs_config = false
